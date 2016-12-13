@@ -10,6 +10,13 @@ namespace DataTypes_Char_StringBoolTypes
     {
         static void Main(string[] args)
         {
+            int charMax = char.MaxValue;
+            int charMin = char.MinValue;
+
+            char mychar = 'G';
+
+            Console.WriteLine("Min char ={0} Max char ={1} My Charachter ={2}",charMin,charMax,mychar);
+            Console.ReadKey();
         }
     }
 }
